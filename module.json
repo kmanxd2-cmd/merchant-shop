@@ -1,0 +1,33 @@
+{
+  "id": "merchant-shop",
+  "title": "Merchant Shop",
+  "description": "Simple NPC merchant shop for Foundry VTT v14 + D&D 5e 5.3.3.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "ChatGPT"
+    }
+  ],
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/merchant-shop.css"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.3.3",
+          "verified": "5.3.3"
+        }
+      }
+    ]
+  }
+}
